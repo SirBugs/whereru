@@ -17,7 +17,7 @@
     "Kwai": {
         "url": "https://www.kwai.com/@{{username}}",
         "filter": "keyword",
-        "value": ">No network<"
+        "value": "user-info"
     },
     "TripAdvisor": {
         "url": "https://www.tripadvisor.com/Profile/{{username}}/",
