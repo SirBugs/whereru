@@ -123,5 +123,35 @@
         "url": "https://www.mercadolibre.com.mx/perfil/{{username}}",
         "filter": "status_code",
         "value": "200"
+    },
+    "Stake": {
+        "url": "https://stakecommunity.com/profile/{{username}}/",
+        "filter": "status_code",
+        "value": "200"
+    },
+    "Hackerone": {
+        "url": "https://hackerone.com/{{username}}",
+        "filter": "status_code",
+        "value": "200"
+    },
+    "Bugcrowd": {
+        "url": "https://bugcrowd.com/{{username}}",
+        "filter": "status_code",
+        "value": "200"
+    },
+    "Intigriti": {
+        "url": "https://app.intigriti.com/api/user/public/profile/{{username}}",
+        "filter": "status_code",
+        "value": "200"
+    },
+    "Youtube": {
+        "url": "https://www.youtube.com/@{{username}}",
+        "filter": "status_code",
+        "value": "200"
+    },
+    "Udemy": {
+        "url": "https://www.udemy.com/user/{{username}}/",
+        "filter": "status_code",
+        "value": "200"
     }
 }
