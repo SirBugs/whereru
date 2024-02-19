@@ -1,0 +1,17 @@
+{
+    "OpenAI": {
+        "url": "https://community.openai.com/u/{{username}}/summary",
+        "filter": "status_code",
+        "value": "200"
+    },
+    "Instagram": {
+        "url": "https://www.instagram.com/{{username}}/",
+        "filter": "fkeyword",
+        "value": "<title>Instagram</title>"
+    },
+    "Facebook": {
+        "url": "https://www.facebook.com/{{username}}/",
+        "filter": "keyword",
+        "value": "\"userID\""
+    }
+}
