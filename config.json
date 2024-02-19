@@ -33,5 +33,95 @@
         "url": "https://xhamster.com/users/{{username}}",
         "filter": "status_code",
         "value": "200"
+    },
+    "Wykop.pl": {
+        "url": "https://wykop.pl/ludzie/{{username}}",
+        "filter": "status_code",
+        "value": "200"
+    },
+    "Wiki.vg": {
+        "url": "https://wiki.vg/User:{{username}}",
+        "filter": "fkeyword",
+        "value": "is not registered"
+    },
+    "LinkTree": {
+        "url": "https://linktr.ee/{{username}}",
+        "filter": "status_code",
+        "value": "200"
+    },
+    "Spletnik": {
+        "url": "https://spletnik.ru/user/{{username}}",
+        "filter": "status_code",
+        "value": "200"
+    },
+    "Social.Tchncs.De": {
+        "url": "https://social.tchncs.de/api/v1/accounts/lookup?acct={{username}}",
+        "filter": "status_code",
+        "value": "200"
+    },
+    "Sessionize": {
+        "url": "https://sessionize.com/{{username}}",
+        "filter": "status_code",
+        "value": "200"
+    },
+    "Satsis": {
+        "url": "https://satsis.info/user/{{username}}",
+        "filter": "status_code",
+        "value": "200"
+    },
+    "Pr0gramm": {
+        "url": "https://pr0gramm.com/api/profile/info?name={{username}}&flags=1",
+        "filter": "status_code",
+        "value": "200"
+    },
+    "Pikabu": {
+        "url": "https://pikabu.ru/@{{username}}",
+        "filter": "status_code",
+        "value": "200"
+    },
+    "Php.ru": {
+        "url": "https://php.ru/forum/members/?username={{username}}",
+        "filter": "status_code",
+        "value": "303"
+    },
+    "Osu.Ppy.Sh": {
+        "url": "https://osu.ppy.sh/users/{{username}}",
+        "filter": "status_code",
+        "value": "302"
+    },
+    "Npmjs": {
+        "url": "https://www.npmjs.com/~{{username}}",
+        "filter": "status_code",
+        "value": "200"
+    },
+    "Note": {
+        "url": "https://note.com/{{username}}",
+        "filter": "status_code",
+        "value": "200"
+    },
+    "Moikrug:Habr": {
+        "url": "https://career.habr.com/{{username}}",
+        "filter": "status_code",
+        "value": "200"
+    },
+    "Habr": {
+        "url": "https://career.habr.com/{{username}}",
+        "filter": "status_code",
+        "value": "200"
+    },
+    "Minds": {
+        "url": "https://www.minds.com/{{username}}",
+        "filter": "status_code",
+        "value": "200"
+    },
+    "Metacritic": {
+        "url": "https://www.metacritic.com/user/{{username}}",
+        "filter": "keyword",
+        "value": "Avg. User score"
+    },
+    "Mercadolibre": {
+        "url": "https://www.mercadolibre.com.mx/perfil/{{username}}",
+        "filter": "status_code",
+        "value": "200"
     }
 }
