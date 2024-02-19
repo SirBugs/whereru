@@ -28,5 +28,10 @@
         "url": "https://www.tiktok.com/@{{username}}/",
         "filter": "keyword",
         "value": "\"userInfo\""
+    },
+    "XHamster": {
+        "url": "https://xhamster.com/users/{{username}}",
+        "filter": "status_code",
+        "value": "200"
     }
 }
