@@ -13,5 +13,15 @@
         "url": "https://www.facebook.com/{{username}}/",
         "filter": "keyword",
         "value": "\"userID\""
+    },
+    "Kwai": {
+        "url": "https://www.kwai.com/@{{username}}",
+        "filter": "keyword",
+        "value": ">No network<"
+    },
+    "TripAdvisor": {
+        "url": "https://www.tripadvisor.com/Profile/{{username}}/",
+        "filter": "status_code",
+        "value": "200"
     }
 }
