@@ -23,5 +23,10 @@
         "url": "https://www.tripadvisor.com/Profile/{{username}}/",
         "filter": "status_code",
         "value": "200"
+    },
+    "TikTok": {
+        "url": "https://www.tiktok.com/@{{username}}/",
+        "filter": "keyword",
+        "value": "\"userInfo\""
     }
 }
