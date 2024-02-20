@@ -153,5 +153,15 @@
         "url": "https://www.udemy.com/user/{{username}}/",
         "filter": "status_code",
         "value": "200"
+    },
+    "Medium": {
+        "url": "https://medium.com/@{{username}}",
+        "filter": "fkeyword",
+        "value": "PAGE NOT FOUND"
+    },
+    "Github": {
+        "url": "https://github.com/{{username}}",
+        "filter": "status_code",
+        "value": "200"
     }
 }
